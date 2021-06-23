@@ -1,20 +1,24 @@
 
 console.log($("#img1").height(),  $("#img1").width());
 
+$(window).ready(function(){
+
+  if($("#img1").css("display") != 'none'){
 
 
-if($("#img1").css("display") != 'none'){
-
-
-$("#Header").css("height",$("#img1").height()+"px");
+  $("#Header").css("height",$("#img1").height()+"px");
 
 
 
-}else{
-  $("#Header").css("height",$("#img2").height()+"px");
+  }else{
+    $("#Header").css("height",$("#img2").height()+"px");
 
 
-}
+  }
+
+});
+
+
 
 $(window). resize(function(){
 
