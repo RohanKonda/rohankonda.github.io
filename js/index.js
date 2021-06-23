@@ -1,7 +1,7 @@
 
 console.log($("#img1").height(),  $("#img1").width());
 
-$(window).ready(function(){
+$(window).bind("load", function () {
 
   if($("#img1").css("display") != 'none'){
 
