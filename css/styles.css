@@ -1,0 +1,582 @@
+.icon-toggle {
+  display: none;
+}
+
+
+.navigation {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 40px 90px;
+    font-family: "Barlow";
+
+ z-index: 80;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0 25px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav-links ul li a:hover {
+  color: hsl(194, 72%, 69%);
+  transition: 0.2s ease-out;
+}
+
+.contact a {
+  color: hsl(212, 27%, 19%) !important;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: 800 !important;
+    font-family: "Fraunces";
+}
+
+.contact a:hover {
+  background-color: hsl(194, 72%, 69%);
+  color: #fff !important;
+  transition: 0.2s ease-out;
+}
+
+.icon-toggle {
+  display: none;
+}
+
+
+
+.navimo {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.mob-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mob-flex li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.mob-flex li a {
+  font-family: var(--Barlow);
+  font-weight: 600;
+  color: hsl(210, 4%, 67%);
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+.contact-mobile a {
+  color: hsl(212, 27%, 19%) !important;
+
+  border-radius: 100px;
+  background-color: yellow;
+}
+
+.unactive {
+  visibility: hidden;
+}
+
+
+body{
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 18px;
+
+}
+
+h1{
+  font-family: "Fraunces";
+  font-weight: 900;
+  text-align: left;
+  padding-right: 20px;
+
+
+}
+
+h3{
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+p{
+
+line-height: 1.5;
+
+}
+
+
+#logo{
+  transform: scale(1.2);
+}
+
+.row{
+  margin: auto;
+}
+
+
+
+/* #Header{
+  position: relative;
+  height: inherit;
+
+} */
+
+/* Header Section */
+
+.container-fluid{
+padding: 0 0;
+/* position: relative; */
+
+}
+
+
+.header-image{
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+   max-height: inherit;
+
+
+}
+
+/* Navigation Bar */
+
+
+
+
+.navbar-brand{
+  max-width: 100%;
+   height: auto;
+}
+
+/* .navbar-custom {
+ padding: 30px 50px;
+
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+      color: #fff;
+
+}
+
+.navbar-custom .navbar-nav .nav-item{
+
+      padding-left: 25px;
+      padding-right: 25px;
+} */
+/* change the color of active or hovered links */
+#contact{
+  background-color: #6fcfff;
+  color: #fff;
+  border-radius: 30px;
+  font-family: "Fraunces";
+  font-weight: 800;
+text-transform: uppercase;
+}
+#contact:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 30px;
+  font-family: "Fraunces";
+  font-weight: 800;
+text-transform: uppercase;
+}
+
+
+
+.toole-icon{
+  color: #fff;
+}
+
+.title-text{
+color: #fff;
+position: relative;
+
+font-family: "Fraunces";
+font-weight: 900;
+font-size: 3.5rem;
+text-align: center;
+margin: auto;
+padding-top: 5%;
+letter-spacing:8px;
+}
+
+.icon-arrow-down{
+  text-align: center;
+  position: relative;
+  padding-top: 8%;
+  margin: auto;
+
+
+}
+
+#img1 {display:block;}
+#img2 {display:none}
+
+#feature-img-desktop1{display: block;}
+#feature-img-mobile1{display: none;}
+
+#feature-img-desktop2{display: block;}
+#feature-img-mobile2{display: none;}
+
+
+#features{
+  position: relative;
+
+}
+
+.feature-image{
+
+padding:0
+
+
+}
+
+.feature-transform{
+
+  text-align: left;
+  padding: 10%;
+  height: auto;
+
+}
+
+.feature-text{
+  text-align: left;
+  justify-content: center;
+padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+
+  color: 		#818498;
+}
+
+
+.learn-more1, .learn-more2{
+  position: relative;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: left;
+  color: #000;
+}
+
+.learn-more1{
+  border-radius: 5px;
+  background: linear-gradient(180deg, #fffbf8 60%, #fff099 40%);
+  width: 120%;
+}
+
+.learn-more1:hover{
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #fffbf8 60%, #fad400 40%);
+}
+
+.learn-more2{
+  /* background-color: #fe7867; */
+  border-radius: 5px;
+  background: linear-gradient(180deg, #fffbf8 60%, #ffd2cc 40%);
+  width: 120%;
+}
+
+.learn-more2:hover{
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #fffbf8 60%, #fe7867 40%);
+}
+
+
+.carousel-caption{
+
+   padding-bottom: 0px;
+
+
+}
+.carousel-caption-h1{
+  text-align: center;
+
+}
+
+.carousel-caption-p{
+  text-align: center;
+  padding: 5% 15%;
+
+}
+
+.cyan-caption{
+
+  color: #25564b;
+}
+
+.blue-caption{
+  color:#19536b;
+}
+
+
+/* Testimonials Section */
+
+
+#Testimonials{
+  background-color: #fffbf8;
+    padding-bottom: 150px;
+}
+
+.testimonials-heading{
+
+  font-family: "Fraunces";
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  padding-top: 150px;
+  padding-bottom: 70px;
+  letter-spacing: 8px;
+  color: 			#a7abae;
+}
+
+.client-image{
+  border-radius: 100%;
+  width: 20%;
+
+
+}
+
+.client-p{
+   padding: 15% 5%;
+   color: 		#818498;
+   font-size: 17px;
+   line-height: 2;
+}
+
+.client-col{
+  text-align: center;
+
+
+}
+
+.client-role{
+  font-size: 1rem;
+  color: #a7abae;
+
+}
+
+/* #Footer Section */
+
+#Footer{
+   background-color: 	#91d3c5;
+  text-align: center;
+
+}
+
+.footer-heading{
+  font-size: 2.5rem;
+  color: #497166;
+  padding: 60px 20px 40px;
+
+}
+
+.footer-link{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #497166;
+  padding: 60px 20px 40px;
+
+}
+
+.footer-link:hover{
+  cursor:pointer;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+
+
+}
+
+.footer-icons{
+  margin: 0;
+}
+
+.icon-footer{
+  padding: 60px 20px 40px;
+}
+
+
+
+
+/* Mobile CSS */
+
+@media only screen and (max-width: 1028px){
+
+  .nav-links {
+    display: none;
+  }
+
+  /* .navigation {
+      margin-bottom: 20px;
+      padding: 30px 30px;
+    } */
+    .mob-flex{
+      margin-top: 18px;
+padding-left: 0px;
+display: block;
+    }
+    .mobile-flex img {
+    height: 100%;
+    width: 50rem;
+    margin-left: -180px;
+  }
+
+  .icon-toggle {
+    display: block;
+  }
+
+
+
+
+    #img1 {display: none;}
+    #img2 {display: block;}
+
+      #feature-img-desktop1{display: none;}
+      #feature-img-mobile1{display: block;}
+
+      #feature-img-desktop2{display: none;}
+      #feature-img-mobile2{display: block;}
+
+
+
+
+    h3 {
+        font-family: "Fraunces";
+        font-weight: 900;
+        font-size: 1.9rem;
+    }
+
+    .header-image{
+      position: absolute;
+      object-fit: cover;
+       width: 100%;
+       max-height: inherit;
+
+    }
+
+
+    .navbar-brand{
+      max-width: 100%;
+   height: auto;
+    }
+
+    .title-text{
+    color: #fff;
+    position: relative;
+
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 7rem;
+    text-align: center;
+    margin: auto;
+    padding-top: 20%;
+    letter-spacing:9px;
+    }
+
+
+    .icon-arrow-down{
+      text-align: center;
+      position: relative;
+      padding-top: 19%;
+      margin: auto;
+      width: 30em;
+    }
+
+    .navbar-collapse .collapse .show{
+      border: none;
+    }
+
+
+    .feature-transform{
+
+      text-align: left;
+      padding: 26%;
+
+
+    }
+
+    .testimonials-heading{
+
+      font-family: "Fraunces";
+      font-weight: 900;
+      text-align: center;
+      justify-content: center;
+      font-size: 2.2rem;
+      padding-top: 150px;
+      padding-bottom: 70px;
+      letter-spacing: 8px;
+      color: 			#a7abae;
+    }
+
+    .client-p{
+       padding: 10% 15%;
+       color: 		#818498;
+       font-size: 1.7rem;
+       line-height: 2;
+    }
+
+    .client-name{
+
+      padding-bottom: 100px;
+
+    }
+
+    .client-role{
+      font-size: 1.2rem;
+      color: #a7abae;
+
+    }
+
+    #Testimonials{
+      padding-bottom: 50px;
+    }
+
+    #Footer{
+       background-color: 	#91d3c5;
+      text-align: center;
+
+        padding: 25%;
+
+    }
+
+
+
+
+
+
+}
